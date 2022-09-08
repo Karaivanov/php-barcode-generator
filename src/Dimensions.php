@@ -8,8 +8,8 @@ class Dimensions
 
     public function __construct(int $height, int $width)
     {
-        $this->$height = $height;
-        $this->$width = $width;
+        $this->height = $height;
+        $this->width = $width;
     }
 
     /**
